@@ -109,6 +109,7 @@ footer {
 .weather-forecast-date{
     font-size: 16px;
     opacity: 0.5;
+   padding-left: 7px;
 }
 
 .weather-forecast-temperature-min{
@@ -116,15 +117,21 @@ footer {
 }
 
 .weather-forecast-temperatures {
-    display: flex;
-    flex-direction: row;
-    font-size: 13px;
+    padding-right: 4px;
 }
 
 .weather-forecast-temperature{
-    color: #f65282; 
+    color: #f65282;
+    display: flex;
+    justify-content: space-around;
 }
 
-.weather-forecast-temperature strong {
-    padding-right: 5px;
+
+
+.weather-forecast-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-left: -3px;
 }
